@@ -92,7 +92,7 @@ prompt_status() {
 }
 
 prompt_caret(){
-  EMOJIS=( 😈 💩 👻 💀 👅 🤷 🦊 🍼 🦁 🙈 🙉 🙊 🐒 🍑 🍆 💊 💣 💔 🐡 🚬 👑 🫀 🧠 )
+  EMOJIS=( ↪ )
   SELECTED_EMOJI=${EMOJIS[$RANDOM % ${#EMOJIS[@]}]}
   NEWLINE=$'\n'
   print -n "${NEWLINE}${SELECTED_EMOJI}  "
