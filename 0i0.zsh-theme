@@ -95,7 +95,7 @@ prompt_caret(){
   EMOJIS=( ↪ ↪ )
   SELECTED_EMOJI=${EMOJIS[$RANDOM % ${#EMOJIS[@]}]}
   NEWLINE=$'\n'
-  prompt_segment CURRENT_BG 228 "${NEWLINE}${SELECTED_EMOJI}a> "
+  prompt_segment CURRENT_BG 228 "${NEWLINE}\udb81\ude0d "
 }
 
 # End the prompt, closing any open segments
